@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hotel Booking System</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Hotel Booking System</h1>
+
+        <!-- User Section -->
+        <div class="user-section">
+            <h2>User</h2>
+            <form action="user_login.php" method="post">
+                <!-- User Login Form Fields -->
+            </form>
+            <button onclick="location.href='register.php'">Register</button>
+            <button onclick="location.href='profile.php'">View/Modify Profile</button>
+            <button onclick="location.href='book_room.php'">Book a Room</button>
+            <button onclick="location.href='booking_history.php'">Booking History</button>
+            <button onclick="location.href='change_booking.php'">Change Booking</button>
+            <button onclick="location.href='cancel_booking.php'">Cancel Booking</button>
+            <button onclick="location.href='check_availability.php'">Check Room Availability</button>
+        </div>
+
+        <!-- Admin Section -->
+        <div class="admin-section">
+            <h2>Administrator</h2>
+            <form action="admin_login.php" method="post">
+                <!-- Admin Login Form Fields -->
+            </form>
+            <button onclick="location.href='modify_rooms.php'">Modify Rooms</button>
+            <button onclick="location.href='change_booking_details.php'">Change Booking Details</button>
+            <button onclick="location.href='cancel_specific_booking.php'">Cancel Specific Booking</button>
+            <button onclick="location.href='modify_static_pages.php'">Modify Static Pages</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
