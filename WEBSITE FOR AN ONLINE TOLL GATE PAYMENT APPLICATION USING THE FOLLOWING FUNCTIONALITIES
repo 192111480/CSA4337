@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Toll Gate Payment</title>
+    <style>
+        /* Add your CSS styling here */
+    </style>
+</head>
+<body>
+    <!-- Admin Section -->
+    <section>
+        <h2>Admin</h2>
+        <form action="#">
+            <label for="adminUsername">Username:</label>
+            <input type="text" id="adminUsername" name="adminUsername">
+            
+            <label for="adminPassword">Password:</label>
+            <input type="password" id="adminPassword" name="adminPassword">
+            
+            <button type="submit">Login</button>
+        </form>
+
+        <ul>
+            <li>Manage User & Toll Pass</li>
+            <li>Manage Toll Login</li>
+            <li>Approve Toll Pass</li>
+            <li>Generate QR Code</li>
+            <li>Create Toll Details</li>
+        </ul>
+    </section>
+
+    <!-- User Section -->
+    <section>
+        <h2>User</h2>
+        <form action="#">
+            <label for="userUsername">Username:</label>
+            <input type="text" id="userUsername" name="userUsername">
+
+            <label for="userPassword">Password:</label>
+            <input type="password" id="userPassword" name="userPassword">
+
+            <button type="submit">Login</button>
+        </form>
+
+        <ul>
+            <li>Register</li>
+            <li>Add Money - eWallet</li>
+            <li>Buy Toll eTicket</li>
+            <li>Apply New Toll Pass</li>
+            <li>Renewal Toll Pass</li>
+            <li>Apply Toll Pass</li>
+            <li>Get QR Code for Toll Pass</li>
+        </ul>
+    </section>
+
+    <!-- Toll Gate User Section -->
+    <section>
+        <h2>Toll Gate User</h2>
+        <form action="#">
+            <label for="tollGateUserUsername">Username:</label>
+            <input type="text" id="tollGateUserUsername" name="tollGateUserUsername">
+
+            <label for="tollGateUserPassword">Password:</label>
+            <input type="password" id="tollGateUserPassword" name="tollGateUserPassword">
+
+            <button type="submit">Login</button>
+        </form>
+
+        <ul>
+            <li>Scan QR</li>
+            <li>Verify Toll Pass ID</li>
+            <li>Verify Toll Ticket</li>
+            <li>Update Toll Location Code</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Online Toll Gate Payment</p>
+    </footer>
+</body>
+</html>
