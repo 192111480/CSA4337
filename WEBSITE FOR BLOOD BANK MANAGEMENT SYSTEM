@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Bank Management System</title>
+</head>
+<body>
+
+    <header>
+        <h1>Blood Bank Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#donor-info">My Donor Info</a></li>
+                <li><a href="#search-bank">Search Blood Bank</a></li>
+                <li><a href="#post-donor">Post Donor Info</a></li>
+                <li><a href="#search-donor">Search Donor</a></li>
+                <li><a href="#logout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Blood Bank Management System</h2>
+        <p>Your solution for efficient blood donation and management.</p>
+    </section>
+
+    <section id="login">
+        <h2>Login</h2>
+        <form action="login.php" method="post"><button type="submit">Login</button></form>
+    </section>
+
+    <section id="register">
+        <h2>Register</h2>
+        <form action="register.php" method="post"><button type="submit">Register</button></form>
+    </section>
+
+    <section id="donor-info">
+        <h2>My Donor Info</h2>
+        <!-- Display donor information for the logged-in user -->
+    </section>
+
+    <section id="search-bank">
+        <h2>Search Blood Bank</h2>
+        <form action="search_blood_bank.php" method="get"><button type="submit">Search</button></form>
+    </section>
+
+    <section id="post-donor">
+        <h2>Post Donor Info</h2>
+        <form action="post_donor_info.php" method="post"><button type="submit">Post Donor Info</button></form>
+    </section>
+
+    <section id="search-donor">
+        <h2>Search Donor</h2>
+        <form action="search_donor.php" method="get"><button type="submit">Search</button></form>
+    </section>
+
+    <section id="logout">
+        <h2>Logout</h2>
+        <button type="submit">Logout</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Blood Bank Management System. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
