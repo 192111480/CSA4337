@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency Website</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Travel Agency</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#food">Food Details</a></li>
+                <li><a href="#hostel">Hostel Details</a></li>
+                <li><a href="#route">Route Details</a></li>
+                <li><a href="#book">Book Accommodation</a></li>
+                <li><a href="#admin">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Travel Agency</h2>
+        <p>Your gateway to amazing travel experiences.</p>
+    </section>
+
+    <section id="register">
+        <h2>Register</h2>
+        <form action="register.php" method="post"><button type="submit">Register</button></form>
+    </section>
+
+    <section id="login">
+        <h2>Login</h2>
+        <form action="login.php" method="post"><button type="submit">Login</button></form>
+    </section>
+
+    <section id="food">
+        <h2>Food Details</h2>
+        <!-- Display food details for users to view -->
+    </section>
+
+    <section id="hostel">
+        <h2>Hostel Details</h2>
+        <!-- Display hostel details for users to view -->
+    </section>
+
+    <section id="route">
+        <h2>Route Details</h2>
+        <!-- Display route details for users to view -->
+    </section>
+
+    <section id="book">
+        <h2>Book Accommodation</h2>
+        <form action="book_accommodation.php" method="post"><button type="submit">Book Now</button></form>
+    </section>
+
+    <section id="admin">
+        <h2>Admin</h2>
+        <form action="admin_login.php" method="post"><button type="submit">Admin Login</button></form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Travel Agency. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
