@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Voting System</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 400px;
+            margin: auto;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+
+        label, button {
+            margin-top: 10px;
+        }
+
+        button {
+            padding: 8px;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        function getOTP() { alert("OTP sent to your mobile number"); }
+
+        function verifyOTP() { alert("OTP Verified. Redirecting to Candidate List"); }
+
+        function submitVote() { alert("Vote Submitted Successfully"); }
+    </script>
+</head>
+<body>
+    <header><h1>E-Voting System</h1></header>
+
+    <main>
+        <section>
+            <h2>Voter Login</h2>
+            <form>
+                <label for="voter-id">Voter ID:</label>
+                <input type="text" id="voter-id" required>
+                <button type="button" onclick="getOTP()">Get OTP</button>
+                <label for="otp">Enter OTP:</label>
+                <input type="text" id="otp" required>
+                <button type="button" onclick="verifyOTP()">Verify OTP</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Candidates</h2>
+            <ul>
+                <li>
+                    <span>Candidate Name</span>
+                    <button onclick="submitVote()">Vote</button>
+                </li>
+                <!-- Repeat for each candidate -->
+            </ul>
+        </section>
+    </main>
+
+    <footer><p>&copy; 2024 E-Voting System</p></footer>
+</body>
+</html>
