@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Website</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Job Application Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#search">Search Jobs</a></li>
+                <li><a href="#post">Post Vacancy</a></li>
+                <li><a href="#applied">View Applied Jobs</a></li>
+                <li><a href="#profile">My Profile</a></li>
+                <li><a href="#logout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Job Application Website</h2>
+        <p>Your gateway to exciting career opportunities.</p>
+    </section>
+
+    <section id="search">
+        <h2>Search Jobs</h2>
+        <form action="search_jobs.php" method="get">
+            <!-- Include search criteria such as location, category, etc. -->
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <section id="post">
+        <h2>Post Vacancy</h2>
+        <form action="post_vacancy.php" method="post">
+            <!-- Include fields like image, description, contact, etc. -->
+            <button type="submit">Post Vacancy</button>
+        </form>
+    </section>
+
+    <section id="applied">
+        <h2>View Applied Jobs</h2>
+        <!-- Display a list of applied jobs with options to view details -->
+    </section>
+
+    <section id="profile">
+        <h2>My Profile</h2>
+        <!-- Include user information, saved jobs, privacy settings, etc. -->
+    </section>
+
+    <section id="logout">
+        <h2>Logout</h2>
+        <!-- Include a button or link for logging out -->
+        <button type="submit">Logout</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Job Application Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
