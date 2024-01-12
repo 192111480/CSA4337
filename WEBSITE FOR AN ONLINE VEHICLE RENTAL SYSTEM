@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Rental System</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Vehicle Rental System</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#search">Search Vehicles</a></li>
+                <li><a href="#booking">Make Booking</a></li>
+                <li><a href="#appointments">Appointments</a></li>
+                <li><a href="#profile">My Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Vehicle Rental System</h2>
+        <p>Your trusted platform for convenient vehicle rentals.</p>
+    </section>
+
+    <section id="search">
+        <h2>Search Vehicles</h2>
+        <form action="search_vehicle.php" method="get"><button type="submit">Search</button></form>
+    </section>
+
+    <section id="booking">
+        <h2>Make Booking</h2>
+        <form action="make_booking.php" method="post"><button type="submit">Submit Booking</button></form>
+    </section>
+
+    <section id="appointments">
+        <h2>Appointments</h2>
+        <!-- Include options for managing appointments -->
+    </section>
+
+    <section id="profile">
+        <h2>My Profile</h2>
+        <!-- Include user information, booking status, appointment details, etc. -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vehicle Rental System. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
